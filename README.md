@@ -1,8 +1,8 @@
 # Next.js MongoDB CRUD
 
-This application is a clear example of the use of Next.js in which we make CRUD requests to the [MongoDB](https://www.mongodb.com/docs/) database through the [Mongoose](https://mongoosejs.com/docs/) ORM library.
+This application is an example of the use of Next.js in which we make CRUD requests to the [MongoDB](https://www.mongodb.com/docs/) database through the [Mongoose](https://mongoosejs.com/docs/) ORM library.
 
-It is an application in which we can create tasks through a form and then list them on the main page of the web. We can also consult a specific task and delete it.
+We can create tasks through a form and then list them on the main page of the web. We can also consult a specific task and delete it.
 
 To style it we have used the [Semantic UI React](https://react.semantic-ui.com/) library.
 
@@ -13,7 +13,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First you will need to install the node modules packages via the `npm i` command in the main project path.
+
+Create an `.env` file in the main project directory and place the following environment variables that configure your mongodb session:
+
+    MONGODB_URL=<mongodb://127.0.0.1/nextjsmongodb>
+
+After that, run the development server:
 
 ```bash
 npm run dev
