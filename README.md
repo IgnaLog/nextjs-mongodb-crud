@@ -1,3 +1,14 @@
+# Next.js MongoDB CRUD
+
+This application is a clear example of the use of Next.js in which we make CRUD requests to the [MongoDB](https://www.mongodb.com/docs/) database through the [Mongoose](https://mongoosejs.com/docs/) ORM library.
+
+It is an application in which we can create tasks through a form and then list them on the main page of the web. We can also consult a specific task and delete it.
+
+To style it we have used the [Semantic UI React](https://react.semantic-ui.com/) library.
+
+![](https://i.ibb.co/Vt4HZgc/nextjs-mongodb-crud-list.png)
+![](https://i.ibb.co/FqhZQMt/nextjs-mongodb-crud-form.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -16,7 +27,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/tasks](http://localhost:3000/api/tasks). This endpoint can be edited in `pages/api/tasks/index.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
@@ -28,8 +39,6 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
