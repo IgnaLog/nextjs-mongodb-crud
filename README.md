@@ -2,7 +2,7 @@
 
 This application is an example of the use of Next.js in which we make CRUD requests to the [MongoDB](https://www.mongodb.com/docs/) database through the [Mongoose](https://mongoosejs.com/docs/) ORM library.
 
-We can create tasks through a form and then list them on the main page of the web. We can also consult a specific task and delete it.
+We can create tasks through a form and then list them on the main page of the web. We can also consult a specific task, modify it and delete it.
 
 To style it we have used the [Semantic UI React](https://react.semantic-ui.com/) library.
 
@@ -36,8 +36,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/tasks](http://localhost:3000/api/tasks). This endpoint can be edited in `pages/api/tasks/index.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
